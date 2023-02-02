@@ -40435,6 +40435,10 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 @media (max-width: 991px) {
+  .u-footer .u-layout-cell-1 {
+    min-height: 115px;
+  }
+
   .u-footer .u-container-layout-1 {
     padding-left: 30px;
     padding-right: 30px;
@@ -40459,6 +40463,10 @@ a.u-link.u-text-hover-grey-90:hover {
     min-height: 151px;
   }
 
+  .u-footer .u-layout-cell-1 {
+    min-height: 173px;
+  }
+
   .u-footer .u-container-layout-1 {
     padding-left: 10px;
     padding-right: 10px;
@@ -40477,7 +40485,11 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-left: auto;
   }
 }
-
+@media (max-width: 575px) {
+  .u-footer .u-layout-cell-1 {
+    min-height: 109px;
+  }
+}
 
  /*begin-variables base-font-size*/ 
  html { font-size: 16px; }
